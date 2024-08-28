@@ -1048,10 +1048,12 @@ echo "The for loop is completed“
 ![image-73](https://github.com/user-attachments/assets/7ad544fe-4cdb-4a4b-a272-1b350517093c)
 
 $ chmod 755 forbreak.sh
- ![image-74](https://github.com/user-attachments/assets/3f861465-e421-429c-9f52-8997f0fd2b32)
+
 
 $ ./forbreak.sh 
- 
+
+  ![image-74](https://github.com/user-attachments/assets/3f861465-e421-429c-9f52-8997f0fd2b32)
+  
 cat forbreak.sh 
 ```bash
 #!/bin/bash
