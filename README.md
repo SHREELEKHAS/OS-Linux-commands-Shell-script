@@ -444,17 +444,22 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+ 
+![Screenshot 2024-08-28 145106](https://github.com/user-attachments/assets/04f5c9eb-c814-48f3-bd0e-185097927e21)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![Screenshot 2024-08-28 145118](https://github.com/user-attachments/assets/823dc8e9-1faa-4152-bea7-c9cec355aa38)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+
+![Screenshot 2024-08-28 145149](https://github.com/user-attachments/assets/a6872df8-3ac5-47d6-8825-68279822efe3)
 
 
 mkdir backupdir
