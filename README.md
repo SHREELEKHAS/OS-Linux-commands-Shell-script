@@ -1,3 +1,4 @@
+## SHREE LEKHA.S 212223110052
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
@@ -468,6 +469,7 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+
 ![image-43](https://github.com/user-attachments/assets/28e14713-4dd5-494a-8b50-57b81f06561a)
 
 
@@ -871,6 +873,7 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
  ![image-64](https://github.com/user-attachments/assets/35efe8b3-b1f2-4f51-b6ad-4079f04a0a3e)
 
  
@@ -992,6 +995,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+
 ![image-70](https://github.com/user-attachments/assets/14a320da-b577-495d-8ee1-b2b626e2ef4c)
 
 cat forctype1.sh 
@@ -1006,6 +1010,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
 ![image-71](https://github.com/user-attachments/assets/6f0ee7bf-6f61-4566-b3f5-3845bfee1a18)
 
 cat fornested1.sh 
@@ -1025,6 +1030,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ 
 ![image-72](https://github.com/user-attachments/assets/87e2e9f4-963d-4a67-80a7-6761a9534b92)
 
  
@@ -1043,6 +1049,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+
 ![image-73](https://github.com/user-attachments/assets/7ad544fe-4cdb-4a4b-a272-1b350517093c)
 
 $ chmod 755 forbreak.sh
@@ -1072,6 +1079,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
  ![image-75](https://github.com/user-attachments/assets/758ae3bf-9551-402f-acab-4c51303497de)
 
 cat exread.sh 
