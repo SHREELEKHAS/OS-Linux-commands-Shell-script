@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![Screenshot 2024-08-28 081747](https://github.com/user-attachments/assets/3fdb8690-f70a-4d0b-a127-c61f76c5bdf9)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -42,23 +42,29 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![Screenshot 2024-08-28 081246](https://github.com/user-attachments/assets/1b2572e4-2a0a-413f-bdbb-fd5ed28f049a)
 
 
 
 cat < file2
 ## OUTPUT
+![Screenshot 2024-08-28 081301](https://github.com/user-attachments/assets/6f5632b0-863e-42e1-8123-bc805b2a04a1)
 
 
 # Comparing Files
 cmp file1 file2
+![Screenshot 2024-08-28 081442](https://github.com/user-attachments/assets/9a7c7046-51d9-4231-980a-d6f914249a1e)
+
 ## OUTPUT
  
 comm file1 file2
  ## OUTPUT
+![Screenshot 2024-08-28 081516](https://github.com/user-attachments/assets/57c1dc74-5eea-4d24-8aef-332488a2f714)
 
  
 diff file1 file2
 ## OUTPUT
+![Screenshot 2024-08-28 081626](https://github.com/user-attachments/assets/a133d080-7122-4ec9-b435-3e5799514082)
 
 
 #Filters
@@ -82,17 +88,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![Screenshot 2024-08-28 081737](https://github.com/user-attachments/assets/1cd98c15-747b-40e3-838a-a87fb1994f8b)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![Screenshot 2024-08-28 081747](https://github.com/user-attachments/assets/1be2b409-62a8-46b1-8374-8d9050ee0a23)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![Screenshot 2024-08-28 081756](https://github.com/user-attachments/assets/5b85d8fa-0d4f-4b1d-92ca-ce811751572a)
 
 
 cat < newfile 
@@ -107,39 +116,46 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![Screenshot 2024-08-28 081950](https://github.com/user-attachments/assets/1129095b-22ac-41b2-9617-4e184e4e7b39)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![Screenshot 2024-08-28 082000](https://github.com/user-attachments/assets/513cc902-c03d-43c0-ae53-9bf5763c5d6d)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![Screenshot 2024-08-28 082039](https://github.com/user-attachments/assets/a0090726-1b15-47ef-9111-100f14ae420e)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![Screenshot 2024-08-28 082310](https://github.com/user-attachments/assets/02e81dc2-3262-405e-9e39-887b724e745a)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![Screenshot 2024-08-28 082318](https://github.com/user-attachments/assets/c5be44d0-cca4-4714-a40b-6419a4e88391)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![Screenshot 2024-08-28 082411](https://github.com/user-attachments/assets/89831286-a32e-4fdf-8304-7f15edda7908)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![Screenshot 2024-08-28 083446](https://github.com/user-attachments/assets/79867af7-13c9-41b4-806b-8ee51346c23b)
 
 
 cat < newfile 
