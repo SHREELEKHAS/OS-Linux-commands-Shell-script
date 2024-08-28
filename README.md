@@ -426,6 +426,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ 
+![Screenshot 2024-08-28 091127](https://github.com/user-attachments/assets/af9c8016-d10d-43c1-90f5-a7a0922cfd87)
 
 cat < urllist.txt
 ```
