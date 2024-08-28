@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image-53](https://github.com/user-attachments/assets/22377678-f9d4-4ab7-997b-63e959ade94b)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -468,12 +468,11 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image-43](https://github.com/user-attachments/assets/28e14713-4dd5-494a-8b50-57b81f06561a)
 
 
 tar -xvf backup.tar
 ## OUTPUT
-
-![image-43](https://github.com/user-attachments/assets/59c68ef3-59c5-4493-b31b-7ec375d0e7d3)
 
 gzip backup.tar
 
@@ -563,6 +562,8 @@ echo $?
 bash: ./one: Permission denied
  
 echo $?
+![image-53](https://github.com/user-attachments/assets/2f7574ba-a8a8-4320-850b-976447f0730a)
+
 ## OUTPUT 
 
  ![image-53](https://github.com/user-attachments/assets/f3d8a394-1508-4bec-949a-6d5350cd7154)
