@@ -475,12 +475,10 @@ tar -xvf backup.tar
 ## OUTPUT
 
 gzip backup.tar
-
 ls .gz
-## OUTPUT
- 
 gunzip backup.tar.gz
 ## OUTPUT
+
 ![image-44](https://github.com/user-attachments/assets/5fe460c0-3c8d-494d-ba20-e9f4ad302c6d)
 
  
