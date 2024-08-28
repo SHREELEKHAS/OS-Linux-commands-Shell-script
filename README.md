@@ -194,58 +194,80 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![Screenshot 2024-08-28 084511](https://github.com/user-attachments/assets/42b12730-a4e5-486c-870d-a189ed77018b)
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![Screenshot 2024-08-28 084528](https://github.com/user-attachments/assets/b08c4436-1f77-4c2a-aa80-09b029825b4d)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+![Screenshot 2024-08-28 084538](https://github.com/user-attachments/assets/f2358ee5-b225-43c8-a7d3-81ff95f481bd)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+![Screenshot 2024-08-28 084801](https://github.com/user-attachments/assets/39367db2-1fb0-4125-807b-2546f4c81558)
+
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+
+![Screenshot 2024-08-28 084810](https://github.com/user-attachments/assets/7dfa2b63-2dc9-4582-8625-c4612921e79e)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+![Screenshot 2024-08-28 084817](https://github.com/user-attachments/assets/50e5be33-ceea-4a9a-8dbb-826da827c4fb)
+
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+
+![Screenshot 2024-08-28 084832](https://github.com/user-attachments/assets/562f8cbc-14cf-4937-bab1-8141a03df7df)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+![Screenshot 2024-08-28 084841](https://github.com/user-attachments/assets/457a3482-4439-4a65-b1d2-82e3307feade)
+
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+![Screenshot 2024-08-28 084850](https://github.com/user-attachments/assets/1a6dff34-67d1-42ab-bef9-cf620a280355)
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+
+![Screenshot 2024-08-28 084900](https://github.com/user-attachments/assets/db19c15d-140e-4dc2-913f-a93de67a72e0)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+![Screenshot 2024-08-28 084909](https://github.com/user-attachments/assets/fb7cf1e5-7564-451b-97f4-fcb16ad8255e)
+
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+
+![Screenshot 2024-08-28 084916](https://github.com/user-attachments/assets/71f7f11a-fa5e-4c17-8fd9-a6335a707d8f)
 
 
 cat > file23
