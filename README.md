@@ -287,35 +287,47 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+![Screenshot 2024-08-28 085335](https://github.com/user-attachments/assets/60fc575b-47bf-4034-a047-a62ebe866707)
+
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+![Screenshot 2024-08-28 085354](https://github.com/user-attachments/assets/f55e9f10-cec7-4dd2-97d8-18e6679124cb)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+![Screenshot 2024-08-28 085412](https://github.com/user-attachments/assets/8b4c6404-e13f-4d98-8ebb-faa8743a5c68)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+
+![Screenshot 2024-08-28 085734](https://github.com/user-attachments/assets/817bff5f-bbb8-4202-ac0e-25a8caf7634b)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+![Screenshot 2024-08-28 085748](https://github.com/user-attachments/assets/48ee0f7c-fad1-4446-b2fd-7df5d00f1461)
+
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+![Screenshot 2024-08-28 085757](https://github.com/user-attachments/assets/6f2ec1c8-29ee-458b-aa6d-ef117c7cd7a9)
+
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+
+![Screenshot 2024-08-28 085818](https://github.com/user-attachments/assets/e1483b3f-9c3a-4262-b88c-9df394c22641)
 
 
 
@@ -323,42 +335,60 @@ sed -n -e '2,/Joe/p' file23
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot 2024-08-28 085829](https://github.com/user-attachments/assets/ee649721-f00a-4942-a108-e7bd0736df7b)
+
 
 
 seq 10 
 ## OUTPUT
+
+![Screenshot 2024-08-28 085836](https://github.com/user-attachments/assets/7895cce1-f494-440a-bd69-9cea649bd168)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+![Screenshot2024-08-28 085844](https://github.com/user-attachments/assets/8bea6d49-f783-4e8e-b240-e6d14f2f7632)
+
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+
+![Screenshot 2024-08-28 085900](https://github.com/user-attachments/assets/82dad090-d06d-4d68-8946-915ea2941304)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+![Screenshot 2024-08-28 090351](https://github.com/user-attachments/assets/a264d824-5ddd-47df-9d46-0c8f67d6b86a)
+
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![Screenshot 2024-08-28 090403](https://github.com/user-attachments/assets/0ff0cd50-4db1-45ec-997d-ccd9153ed127)
+
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+
+![Screenshot 2024-08-28 090415](https://github.com/user-attachments/assets/c5a77b4f-ed51-47a6-a8b2-7a153c17bda4)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+![Screenshot 2024-08-28 090427](https://github.com/user-attachments/assets/61c35baf-f8f3-4c09-baea-1695f134a584)
+
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
+![Screenshot 2024-08-28 090436](https://github.com/user-attachments/assets/c4f525be-a343-46c0-a432-b39bbb4067b8)
 
 
 #Sorting File content
@@ -373,6 +403,8 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![Screenshot 2024-08-28 090514](https://github.com/user-attachments/assets/0981dd44-bbb4-4bec-aacb-1e7286547078)
+
 
 cat > file22
 ```
@@ -385,6 +417,8 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+
+![Screenshot 2024-08-28 090545](https://github.com/user-attachments/assets/4df76ae5-037c-49fd-8f9b-1045958ff053)
 
 
 
