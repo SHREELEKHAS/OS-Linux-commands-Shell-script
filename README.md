@@ -473,6 +473,8 @@ tar -tvf backup.tar
 tar -xvf backup.tar
 ## OUTPUT
 
+![image-43](https://github.com/user-attachments/assets/59c68ef3-59c5-4493-b31b-7ec375d0e7d3)
+
 gzip backup.tar
 
 ls .gz
@@ -480,6 +482,7 @@ ls .gz
  
 gunzip backup.tar.gz
 ## OUTPUT
+![image-44](https://github.com/user-attachments/assets/5fe460c0-3c8d-494d-ba20-e9f4ad302c6d)
 
  
 # Shell Script
@@ -600,7 +603,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
 
 ![image-55](https://github.com/user-attachments/assets/083f5a02-986d-4040-81e2-bbbb9ec7a296)
 
